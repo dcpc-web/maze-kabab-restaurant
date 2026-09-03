@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="fv-flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0BC4F"/>
+      <stop offset="1" stop-color="#C2571F"/>
+    </linearGradient>
+    <linearGradient id="fv-meat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8B5A33"/>
+      <stop offset="1" stop-color="#5A391D"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#191410"/>
+  <g transform="translate(3.2 3.2) scale(0.6)">
+    <circle cx="48" cy="48" r="46" fill="none" stroke="#D8B36A" stroke-width="2.4"/>
+    <path d="M26 78 V48 C26 32.5 37 24.5 48 20.5 C59 24.5 70 32.5 70 48 V78"
+          fill="none" stroke="#D8B36A" stroke-width="1.6"/>
+    <path d="M21.5 78 H74.5" fill="none" stroke="#D8B36A" stroke-width="1.6"/>
+    <path d="M48 24 C51.2 28.4 54.6 31.9 54.6 36.1 A6.6 6.6 0 1 1 41.4 36.1 C41.4 31.9 44.8 28.4 48 24 Z"
+          fill="url(#fv-flame)"/>
+    <line x1="48" y1="43.5" x2="48" y2="71.5" stroke="#C9A45E" stroke-width="2" stroke-linecap="round"/>
+    <path d="M48 75.8 L45.9 71.8 H50.1 Z" fill="#C9A45E"/>
+    <g stroke="#40260F" stroke-width="0.8">
+      <rect x="38"   y="40"   width="20"   height="10"   rx="5"   fill="url(#fv-meat)"/>
+      <rect x="36.8" y="51.6" width="22.4" height="10.4" rx="5"   fill="url(#fv-meat)"/>
+      <rect x="38.4" y="63.6" width="19.2" height="9.4"  rx="4.7" fill="url(#fv-meat)"/>
+    </g>
+  </g>
+</svg>
